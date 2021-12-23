@@ -1,0 +1,29 @@
+{
+  "name": "scrap-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "nodemon dist/index.js"
+  },
+  "types": "index.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^8.1.3",
+    "@types/node": "^16.11.12",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^5.0.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cli-table3": "^0.6.0",
+    "colors": "^1.4.0",
+    "inquirer": "^8.2.0"
+  }
+}
