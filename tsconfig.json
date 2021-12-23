@@ -7,16 +7,9 @@
     "outDir": "./dist",
     "rootDir": "./src",
 
-    // "removeComments": true,
-    "sourceMap": true,
-    "noImplicitAny": true,
-    "strictFunctionTypes": true,
-    "strictNullChecks": true,
-    "noImplicitThis": true,
+    "strict": true,
+    "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "allowSyntheticDefaultImports": true,
-    "noImplicitReturns": true,
 
     "resolveJsonModule": true,
     "esModuleInterop": true,
@@ -28,6 +21,6 @@
     /* Advanced Options */
     // "skipLibCheck": true,                           /* Skip type checking of declaration files. */
   },
-  "exclude": ["node_modules", "**/*.spec.ts", "scripts"],
-  "include": ["./src/**/*", "index.d.ts"]
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "include": ["./src/**/*"]
 }
